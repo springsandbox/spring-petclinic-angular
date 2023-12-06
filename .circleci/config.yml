@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:2022.09
         auth:
           username: $DOCKERHUB_USERNAME
-          password: $DOCKERHUB_PASSWOR
+          password: $DOCKERHUB_PASSWORD
     steps:
       - setup_remote_docker
       - run:
